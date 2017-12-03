@@ -1,0 +1,48 @@
+h3 {
+    padding: 5px;
+    display: block;
+    margin: 0 auto;
+  }
+  
+  .label {
+    font-weight: bold;
+  }
+  
+  .create-update-form {
+    padding: 5px;
+    margin: 5px;
+    background: aqua;
+  }
+  
+  .form-group {
+    margin-bottom: 5px;
+  }
+
+  body {
+    background-color: rgb(184, 85, 85);
+
+  }
+
+  .done {
+    float: right;
+  }
+
+  #eatit{
+    float:left;
+    margin-left: 100px;
+  }
+
+  #eaten {
+    float: right;
+    margin-right: 100px;
+  }
+
+  img {
+    display: block;
+    margin: 0 auto;
+  }
+
+  input{
+    float: left;
+  }
+
