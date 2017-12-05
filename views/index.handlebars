@@ -1,3 +1,4 @@
+
 <h1>burgers!</h1>
 {{!--
 <img src="../public/assets/img/burger.png"> --}}
@@ -12,9 +13,13 @@
 <img src="http://25.media.tumblr.com/tumblr_m8q0lce8wB1qadtd9o1_500.png"> {{!-- C:\Users\jakad\Desktop\Rutgers_Coding_Bootcamp\Projects\burger\views\index.handlebars C:\Users\jakad\Desktop\Rutgers_Coding_Bootcamp\Projects\burger\public\assets\img\burger.png
 --}}
 
-<div>
-  <h2 id="eatit"> Eat-Da-Burger!</h2>
-  <h2 id="eaten">Burgers that are eaten</h2>
+<div class="container">
+  <div class="row">
+    <div class="col-sm">
+      <h2 id="eatit"> Eat-Da-Burger!</h2>
+      <h2 id="eaten">Burgers that are eaten</h2>
+    </div>
+  </div>
 </div>
 
 <ul class="before">
@@ -28,5 +33,3 @@
 <ul class="done">
   {{#each burgers}} {{#if sleepy}} {{> burgers/burger-block sleep=false}} {{/if}} {{/each}}
 </ul>
-
-
